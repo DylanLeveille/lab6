@@ -1,0 +1,8 @@
+<springtest.AddressBook>
+	<springtest.BuddyInfo>
+	 	<name> Dave </name>
+	 	<address> unknown </address>
+	 	<phoneNumber> 613 411-1111 </phoneNumber>
+	 	<age> 0 </age>
+	</springtest.BuddyInfo>
+</springtest.AddressBook>
