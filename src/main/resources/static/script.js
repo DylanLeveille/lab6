@@ -20,7 +20,7 @@ function submitBook() {
 
 
    const request = async () => {
-       var res = await fetch('http://localhost:8080/buddyinfo', {
+       var res = await fetch('/buddyinfo', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -38,7 +38,7 @@ function submitBook() {
         for(var i =1; i< table.rows.length; i++) {
             var buddyName = table.rows[i].cells[0].firstElementChild.value
 
-            res = await fetch('http://localhost:8080/buddyinfo', {
+            res = await fetch('/buddyinfo', {
                             method: 'POST',
                             headers: {
                                 'Accept': 'application/json',
@@ -52,7 +52,7 @@ function submitBook() {
 
         console.log(buddies)
 
-        res = await fetch('http://localhost:8080/addressbook', {
+        res = await fetch('/addressbook', {
                                 method: 'POST',
                                 headers: {
                                     'Accept': 'application/json',
