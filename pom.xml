@@ -44,7 +44,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.6.3</version>
                 <configuration>
-                    <mainClass>springtest.AddressBook</mainClass>
+                    <mainClass>springtest.ServingWebContent</mainClass>
                 </configuration>
             </plugin>
         </plugins>
